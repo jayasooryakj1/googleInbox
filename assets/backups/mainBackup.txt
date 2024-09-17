@@ -1,0 +1,143 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    	<link rel="stylesheet" href="css/style.css">
+    	<link rel="icon" type="image/x-icon" href="assets/mailFavicon.png">
+    	<title>Inbox</title>
+</head>
+<body>
+<div class="mainFlex">
+
+	<!-- Side Menu -->
+	<div class="sideMenu">
+		<div class="SideMenuIconOption">
+			<button class="optionButton"><img src="assets/opt.png" alt="optionIcon" width="18"></button>
+		</div>
+		<div class="SideMenuIconMail">
+			<button class="sideButtonGroup sideButtonMail"><img src="assets/gmailSide.png" alt="gmailIcon" width="18"></button>
+		</div>
+		<div class="sideMenuText">
+			<p>Mail</p>
+		</div>
+		<div class="SideMenuIconGroup">
+			<button class="sideButtonGroup"><img src="assets/chats.png" alt="chatsIcon" width="18"></button>
+		</div>
+		<div class="sideMenuText">
+			<p>Chat</p>
+		</div>
+		<div class="SideMenuIconGroup">
+			<button class="sideButtonGroup"><img src="assets/meet.png" alt="meetIcon" width="18"></button>
+		</div>
+		<div class="sideMenuText">
+			<p>Meet</p>
+		</div>
+	</div>
+<div>
+	<!-- Top Bar-->
+		<div class="topBar">
+			<div class="iconText">
+				<div>
+					<img src="assets/mailFavicon.png" alt="mailFavicon" width="35">
+				</div>
+				<div class="gmailText">
+					<p>Gmail</p>
+				</div>
+			</div>
+			<div class="search">
+				<input type="text">
+			</div>
+		</div>
+
+	<!-- Content -->
+	<div class="content">		
+		
+		
+		
+			<!-- Side Bar -->
+			<div class="sideBar">
+				<div class="compose">
+					<div>
+						<img src="assets/pen.png" alt="penIcon" width="20">
+					</div>
+					<div>
+						<p>
+							Compose
+						</p>
+					</div>
+				</div>
+				<div class="sideBarOption">
+					<div>
+						<img src="assets/inbox.png" alt="inboxIcon" width="15">
+					</div>
+					<div>
+						<p>
+							Inbox
+						</p>
+					</div>
+				</div>
+				<div class="sideBarOptionGroup">
+					<div>
+						<img src="assets/star.png" alt="starIcon" width="15">
+					</div>
+					<div>
+						<p>
+							Starred
+						</p>
+					</div>
+				</div>
+				<div class="sideBarOptionGroup">
+					<div>
+						<img src="assets/clock.png" alt="clockIcon" width="15">
+					</div>
+					<div>
+						<p>
+							Snoozed
+						</p>
+					</div>
+				</div>
+				<div class="sideBarOptionGroup">
+					<div>
+						<img src="assets/sent.png" alt="sentIcon" width="15">
+					</div>
+					<div>
+						<p>
+							Sent
+						</p>
+					</div>
+				</div>
+				<div class="sideBarOptionGroup">
+					<div>
+						<img src="assets/drafts.png" alt="draftsIcon" width="15">
+					</div>
+					<div>
+						<p>
+							Drafts
+						</p>
+					</div>
+				</div>
+				<div class="sideBarOptionGroup">
+					<div>
+						<img src="assets/more.png" alt="moreIcon" width="15">
+					</div>
+					<div>
+						<p>
+							More
+						</p>
+					</div>
+				</div>
+				<div class="labels">
+					<div class="labelText">
+						<p>
+							Labels
+						</p>
+					</div>
+					<div class="labelPlus">
+						<img src="assets/plus.png" alt="plusIcon" width="15">
+					</div>
+				</div>
+			</div>
+</div>
+</div>		
+</div>
+</body>
+</html>
