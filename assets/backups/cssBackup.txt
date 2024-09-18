@@ -9,9 +9,9 @@
 	font-family: Arial;
 }
 
-div{
+/*div{
 	border: 1px solid red;
-}
+}*/
 
 body{
 	background-color:rgb(246, 248, 252);
@@ -74,7 +74,9 @@ button:hover{
 }
 
 /*Top Bar*/
-
+.topBar{
+	display:flex;
+}
 /* Side Bar */
 .sideBar{
 	padding-left:12px;
@@ -168,4 +170,175 @@ button:hover{
 
 .labelText{
 	margin-top:5px;
+}
+
+/*Search*/
+.search{
+	display:flex;
+	background-color:rgb(234, 241, 251);
+	height:50px;
+	width:600px;
+	margin-left:20px;
+	margin-top:10px;
+	border-radius:50px;
+}
+.search img{
+	margin-left:10px;
+	margin-top:15px;
+	position:absolute;
+}
+
+.search input{
+	border:none;	
+	margin-top:15px;
+	margin-left:40px;
+	height:20px;
+	width:100%;
+	background-color:rgb(234, 241, 251);
+	font-size:16px;
+}
+
+.searchImage, .searchImageRight{
+	cursor:pointer;
+}
+
+.searchImageRight:hover{
+	background-color:rgb(221, 227, 236);
+}
+.searchImageRight{
+	margin-left:23vw;
+}
+.searchImage:hover{
+	background-color:rgb(221, 227, 236);
+}
+
+.active{
+	display:flex;
+	background-color:rgb(234, 241, 251);
+	margin-top:10px;
+	margin-left:20px;
+	width:100px;
+	height:50px;
+	border-radius:50px;
+}
+
+.greenDot img{
+	margin-top:20px;
+	margin-left:15px;
+}
+.activeText{
+	margin-top:18px;
+	margin-left:5px;
+	font-size:15px;
+}
+.activeDown{
+	margin-top:18px;
+	margin-left:5px;
+}
+
+.qnMark, .settings, .dotsMenu{
+	margin-left:20px;
+	margin-top:25px;
+}
+
+.techV{
+	margin-top:10px;
+	margin-left:15px;
+	border:1px solid rgb(214, 215, 219);
+	border-radius:10px;
+	display:flex;
+	height:40px;
+}
+
+
+
+.flex{
+	display:flex;
+}
+
+
+/* Main */
+
+.main{
+	background-color:white;
+	margin-top:10px;
+	margin-left:20px;
+	border-radius:10px 10px 10px 10px;
+}
+
+.mainHeader{
+	display:flex;
+	padding-top:15px;
+	padding-left:15px;
+	height:30px;
+}
+
+.main input:hover{
+	cursor:pointer;
+}
+
+.headerDownArrow{
+	margin-top:2px;
+	margin-left:10px;
+}
+.headerDownArrow:hover{
+	background-color:rgb(234, 235, 239);
+	cursor:pointer;
+}
+
+.headerRefresh{
+	border-radius:50%;
+	margin-left:30px;
+}
+
+.headerRefresh:hover{
+	background-color:rgb(234, 235, 239);
+	cursor:pointer;
+}
+.headerNumber{
+	margin-left:47vw;
+}
+.headerNumber p{
+	font-size:12px;
+	
+}
+
+.headerLeftArrow, .headerRightArrow{
+	margin-left:20px;
+}
+
+.mainContent{
+	background-color:rgb(242, 246, 252);
+	border-radius:0px 0px 10px 10px;
+	overflow-y:scroll;
+	height:80vh;
+}
+
+.mainContentRow{
+	display:flex;
+	padding-left:15px;
+	padding-bottom:15px;
+	border-bottom:1px solid rgb(214, 215, 219);
+}
+.mainContentRow:hover{
+	box-shadow:2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+	cursor:pointer;
+}
+.rowCheckbox{
+	margin-top:15px;
+	
+}
+.rowStar, .rowSender, .rowTime{
+	margin-left:10px;
+	margin-top:13px;
+}
+
+.mainContentRow p{
+	font-size:14px;
+}
+
+
+.rowMailContent{
+	margin-left:70px;
+	margin-top:13px;
 }
