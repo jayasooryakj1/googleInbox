@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
     	<link rel="stylesheet" href="css/style.css">
-    	<link rel="icon" type="image/x-icon" href="assets/mailFavicon.png">
+    	<link rel="icon" type="image/x-icon" href="assets/images/mailFavicon.png">
     	<title>Inbox</title>
 </head>
 <body>
@@ -11,22 +11,22 @@
 	<!-- Side Menu -->
 	<div class="sideMenu">
 		<div class="SideMenuIconOption">
-			<button class="optionButton"><img src="assets/opt.png" alt="optionIcon" width="18"></button>
+			<button class="optionButton"><img src="assets/images/opt.png" alt="optionIcon" width="18"></button>
 		</div>
 		<div class="SideMenuIconMail">
-			<button class="sideButtonGroup sideButtonMail"><img src="assets/gmailSide.png" alt="gmailIcon" width="18"></button>
+			<button class="sideButtonGroup sideButtonMail"><img src="assets/images/gmailSide.png" alt="gmailIcon" width="18"></button>
 		</div>
 		<div class="sideMenuText">
 			<p>Mail</p>
 		</div>
 		<div class="SideMenuIconGroup">
-			<button class="sideButtonGroup"><img src="assets/chats.png" alt="chatsIcon" width="18"></button>
+			<button class="sideButtonGroup"><img src="assets/images/chats.png" alt="chatsIcon" width="18"></button>
 		</div>
 		<div class="sideMenuText">
 			<p>Chat</p>
 		</div>
 		<div class="SideMenuIconGroup">
-			<button class="sideButtonGroup"><img src="assets/meet.png" alt="meetIcon" width="18"></button>
+			<button class="sideButtonGroup"><img src="assets/images/meet.png" alt="meetIcon" width="18"></button>
 		</div>
 		<div class="sideMenuText">
 			<p>Meet</p>
@@ -37,14 +37,11 @@
 		<div class="topBar">
 			<div class="iconText">
 				<div>
-					<img src="assets/mailFavicon.png" alt="mailFavicon" width="35">
+					<img src="assets/images/mailFavicon.png" alt="mailFavicon" width="35">
 				</div>
 				<div class="gmailText">
 					<p>Gmail</p>
 				</div>
-			</div>
-			<div class="search">
-				<input type="text">
 			</div>
 		</div>
 
@@ -57,7 +54,7 @@
 			<div class="sideBar">
 				<div class="compose">
 					<div>
-						<img src="assets/pen.png" alt="penIcon" width="20">
+						<img src="assets/images/pen.png" alt="penIcon" width="20">
 					</div>
 					<div>
 						<p>
@@ -67,7 +64,7 @@
 				</div>
 				<div class="sideBarOption">
 					<div>
-						<img src="assets/inbox.png" alt="inboxIcon" width="15">
+						<img src="assets/images/inbox.png" alt="inboxIcon" width="15">
 					</div>
 					<div>
 						<p>
@@ -77,7 +74,7 @@
 				</div>
 				<div class="sideBarOptionGroup">
 					<div>
-						<img src="assets/star.png" alt="starIcon" width="15">
+						<img src="assets/images/star.png" alt="starIcon" width="15">
 					</div>
 					<div>
 						<p>
@@ -87,7 +84,7 @@
 				</div>
 				<div class="sideBarOptionGroup">
 					<div>
-						<img src="assets/clock.png" alt="clockIcon" width="15">
+						<img src="assets/images/clock.png" alt="clockIcon" width="15">
 					</div>
 					<div>
 						<p>
@@ -97,7 +94,7 @@
 				</div>
 				<div class="sideBarOptionGroup">
 					<div>
-						<img src="assets/sent.png" alt="sentIcon" width="15">
+						<img src="assets/images/sent.png" alt="sentIcon" width="15">
 					</div>
 					<div>
 						<p>
@@ -107,7 +104,7 @@
 				</div>
 				<div class="sideBarOptionGroup">
 					<div>
-						<img src="assets/drafts.png" alt="draftsIcon" width="15">
+						<img src="assets/images/drafts.png" alt="draftsIcon" width="15">
 					</div>
 					<div>
 						<p>
@@ -117,7 +114,7 @@
 				</div>
 				<div class="sideBarOptionGroup">
 					<div>
-						<img src="assets/more.png" alt="moreIcon" width="15">
+						<img src="assets/images/more.png" alt="moreIcon" width="15">
 					</div>
 					<div>
 						<p>
@@ -132,12 +129,1258 @@
 						</p>
 					</div>
 					<div class="labelPlus">
-						<img src="assets/plus.png" alt="plusIcon" width="15">
+						<img src="assets/images/plus.png" alt="plusIcon" width="15">
 					</div>
 				</div>
 			</div>
+			
 </div>
-</div>		
 </div>
+<div>
+<div class="flex">
+			<div class="search">
+				<div class="searchImage">
+					<img src="assets/images/search.png" alt="searchIcon" width="18">
+				</div>
+				<div>
+					<input type="text" placeholder="Search mail">
+				</div>
+				<div class="searchImageRight">
+					<img src="assets/images/searchOption.png" alt="searchOptionIcon" width="20">
+				</div>
+			</div>	
+			<div class="active">
+				<div class="greenDot">
+					<img src="assets/images/greenDot.png" alt="greenDot" width="12">
+				</div>
+				<div>
+					<p class="activeText">
+						Active
+					</p>
+				</div>
+				<div class="activeDown">
+					<img src="assets/images/more.png" alt="downArrow" width="15">
+				</div>
+			</div>
+			<div class="qnMark">
+				<img src="assets/images/qnMark.webp" alt="qnMark" width="20">
+			</div>
+			<div class="settings">
+				<img src="assets/images/setting.png" alt="settingsIcon" width="20">
+			</div>
+			<div class="dotsMenu">
+				<img src="assets/images/dotsMenu.png" alt="dotsMenuIcon" width="18">
+			</div>
+			<div class="techV">
+				<div>
+					<img src="assets/images/techV.png" alt="techVLogo" width="100">
+				</div>
+				<div>
+					<img src="assets/images/j.png" alt="jLogo" width="40">
+				</div>
+			</div>
+</div>
+
+
+<!-- MAIN -->
+	<div class="main">
+		<div class="mainHeader">
+			<div>
+				<input type="checkbox">
+			</div>
+			<div class="headerDownArrow">
+				<img src="assets/images/downArrow.png" alt="downArrow" width="10">
+			</div>
+			<div class="headerRefresh">
+				<img src="assets/images/refresh.png" alt="refreshIcon" width="15">
+			</div>
+			<div class="headerRefresh">
+				<img src="assets/images/dots.png" alt="refreshIcon" width="15">
+			</div>
+			<div class="headerNumber">
+				<p>1-50 of 50</p>
+			</div>
+			<div class="headerLeftArrow">
+				<img src="assets/images/leftArrow.png" alt="leftArrowIcon" width="10">
+			</div>
+			<div class="headerRightArrow">
+				<img src="assets/images/rightArrow.png" alt="rightArrowIcon" width="10">
+			</div>
+			<div class="headerRightArrow">
+				<img src="assets/images/keyboard.png" alt="keyboardIcon" width="15">
+			</div>
+			<div class="headerDownArrow">
+				<img src="assets/images/downArrow.png" alt="downArrow" width="10">
+			</div>
+		</div>
+
+		<!-- Main content-->
+		<div class="mainContent">
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+			<div class="mainContentRow">
+				<div class="rowCheckbox">
+					<input type="checkbox">
+				</div>
+				<div class="rowStar">
+					<img src="assets/images/star.png" alt="star" width="15">
+				</div>
+				<div class="rowSender">
+					<p>
+						Techversant Infotec.
+					</p>
+				</div>
+				<div class="rowMailContent">
+					<p>
+						Daily Email Digest - Daily Digest Wednesday, 18 Sep Hello, Jayasoorya KJ On leave today (4) View...
+					</p>
+				</div>
+				<div class="rowTime">
+					<p>
+						9:28AM
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+</div>
+
 </body>
 </html>
