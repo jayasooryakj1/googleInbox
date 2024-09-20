@@ -89,6 +89,7 @@ body{
 .searchBar input{
 	background-color:rgb(234, 241, 251);
 	border:none;
+	width:85%;
 	margin-left:5px;
 }
 
@@ -100,7 +101,7 @@ body{
 	cursor:pointer;
 }
 .filterIcon{
-	margin-left:auto;
+	margin-left:5px;
 	border-radius:20px;
 }
 .searchIcon{
@@ -332,4 +333,8 @@ body{
 .mailTime{
 	margin-left:15px;
 	width:55px;
+}
+
+.main500{
+	display:none;
 }
