@@ -7,7 +7,7 @@
 		background-color:rgb(234, 241, 251);
 		margin-top:10px;
 		margin-left:10px;
-		padding:20px 15px;
+		padding:15px 15px 20px 15px;
 		height:10px;
 		border-radius:50%;
 	}
@@ -51,6 +51,7 @@
 			display:flex;
 			padding-top:10px;
 			padding-left:20px;
+			text-overflow: ellipsis;
 		}
 		.body868Row:hover{
 			cursor:pointer;
@@ -115,6 +116,11 @@
 		margin-left:5px;
 		border-radius:10px;
 	}
+
+	.mailIcon5:hover{
+		cursor:pointer;
+		box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+	}	
 		
 	.headerText500{
 		margin-left:20px;
@@ -137,15 +143,27 @@
 		margin-left:40px;
 		margin-top:20px;
 	}
-
+	
+	.headerOpen:hover{
+		cursor:pointer;
+	}
+	
 	.primary500{
 		display:flex;
 		padding:10px;
 		background-color:rgb(241, 241, 241);
 	}
 	
+	.option500:hover{
+		cursor:pointer;
+	}
+	
 	.refresh500{
 		margin-left:20px;
+	}
+
+	.refresh500:hover{
+		cursor:pointer;
 	}
 
 	.pen500{
@@ -159,15 +177,26 @@
 		font-size:20px;
 		font-weight:bold;
 	}
-
+	
+	.primary500Text:hover{
+		cursor:pointer;
+	}
+	
 	.number500Text{
 		margin-left:20px;
 		font-size:20px;
 		color:grey;
 	}
 	
+	.number500Text:hover{
+		cursor:pointer;
+	}
+
 	.pen500{
 		margin-left:150px;
+	}
+	.pen500:hover{
+		cursor:pointer;
 	}
 
 	.mainContent500{
