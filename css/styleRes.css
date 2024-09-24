@@ -100,7 +100,9 @@
 		width:10vw;
 	}
 	.mobileView{
+		display:unset;
 		width:100vw;
+		height:100%;
 	}
 	.mvHeader{
 		width:100vw;
@@ -119,8 +121,6 @@
 		font-size:20px;
 		font-weight:bold;
 		margin-top:20px;
-	}
-	.mvHeaderTextSmall{
 	}
 	.mvHeaderOpen{
 		margin-left:5px;
@@ -189,11 +189,12 @@
 	}
 	.mvMailContent{
 		margin-left:10px;
-		width:400px;
+		width:300px;
 	}
+	
 	.mvTime img{
 		margin-top:10px;
-		margin-left:25px;
+		margin-left:23px;
 	}
 	.mvSender{
 		font-size:17px;
@@ -207,185 +208,3 @@
 		color:grey;
 	}
 }
-
-
-/*
-@media screen and(max-width:375px){
-	
-}
-*/
-
-
-
-/*
-@media screen and (max-width:500px){
-	.mainFlex{
-		display:none;
-	}
-
-	.main500{
-		display:unset;
-	}
-
-	.header500{
-		display:flex;
-		background-color:rgb(244, 246, 251);
-		padding:10px;
-	}
-	
-	.mailIcon5{
-		background-color:white;
-		padding:2px;
-		margin-left:5px;
-		border-radius:10px;
-	}
-
-	.mailIcon5:hover{
-		cursor:pointer;
-		box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
-	}	
-		
-	.headerText500{
-		margin-left:20px;
-		margin-top:10px;
-	}
-
-	.headerBig500 p{
-		font-size:20px;
-		font-weight:bold;
-	}
-
-	.headerSmall500{
-		margin-top:1px;
-		font-size:18px;
-	}
-	
-	.headerOpen{
-		color:rgb(11, 87, 207);
-		font-size:18px;
-		margin-left:40px;
-		margin-top:20px;
-	}
-	
-	.headerOpen:hover{
-		cursor:pointer;
-	}
-	
-	.primary500{
-		display:flex;
-		padding:10px;
-		background-color:rgb(241, 241, 241);
-	}
-	
-	.option500:hover{
-		cursor:pointer;
-	}
-	
-	.refresh500{
-		margin-left:20px;
-	}
-
-	.refresh500:hover{
-		cursor:pointer;
-	}
-
-	.pen500{
-		padding:5px 10px;
-		border-radius:5px;
-		background-color:rgb(215, 54, 44);
-		margin-left:1px;
-	}
-
-	.primary500Text{
-		margin-left:100px;
-		font-size:20px;
-		font-weight:bold;
-	}
-	
-	.primary500Text:hover{
-		cursor:pointer;
-	}
-	
-	.number500Text{
-		margin-left:20px;
-		font-size:20px;
-		color:grey;
-	}
-	
-	.number500Text:hover{
-		cursor:pointer;
-	}
-
-	.pen500{
-		margin-left:150px;
-	}
-	.pen500:hover{
-		cursor:pointer;
-	}
-
-	.mainContent500{
-		background-color:white;
-	}
-
-	.search500{
-		margin-left:10px;
-		margin-top:10px;
-		padding:10px 0px 10px 0px;
-		border-bottom:1px solid rgb(214, 215, 219);
-	}
-	
-	.search500 img{
-		opacity:0.5;
-	}
-	
-	.search500 input{
-		border:none;
-		font-size:20px;
-		margin-left:10px;
-		height:30px;
-	}
-	
-	.mail500Row{
-		overflow-y:scroll;
-		height:450px;
-	}
-
-	.row5Sender{
-		font-size:18px;
-		font-weight:bold;
-	}
-	
-	.row5Subject{
-		font-size:15px;
-	}
-	
-	.row5Matter p{
-		font-size:15px;
-		color:grey;
-	}
-	
-	.row5Content{
-		display:flex;
-		padding:10px 0px 10px 0px;
-		border-bottom:1px solid rgb(214, 215, 219);
-	}
-
-	.row5Content:hover{
-		cursor:pointer;
-		box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
-	}
-
-	.row5Mail{
-		margin-left:10px;
-	}
-
-	.content5Square{
-		margin-left:15px;
-		margin-top:20px;
-	}
-	
-	.row5Star{
-		margin-top:15px;
-		margin-left:30px;
-	}
-}*/
