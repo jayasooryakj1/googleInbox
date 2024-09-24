@@ -93,8 +93,131 @@
 		}
 }
 
+@media screen and (max-width:500px){
+	.mainFlex{
+		display:none;
+		height:10vh;
+		width:10vw;
+	}
+	.mobileView{
+		width:100vw;
+	}
+	.mvHeader{
+		width:100vw;
+		display:flex;
+		background-color:rgb(245, 246, 251);
+		border-bottom:1px solid rgb(214, 215, 219);
+	}
+	.mvImg{
+		height:50px;
+		background-color:rgb(255, 255, 255);
+		padding:3px;
+		border-radius:10px;
+		margin:10px 10px 10px 10px
+	}
+	.mvHeaderTextBig{
+		font-size:20px;
+		font-weight:bold;
+		margin-top:20px;
+	}
+	.mvHeaderTextSmall{
+	}
+	.mvHeaderOpen{
+		margin-left:5px;
+		color:rgb(11, 87, 207);
+		margin-top:25px;
+	}
+	.mvPrimary{
+		display:flex;
+		width:100vw;
+		background-color:rgb(241, 241, 241);
+	}
+	.mvOption{
+		margin-left:5px;
+		margin-top:20px;
+	}
+	.mvReload{
+		margin-left:10px;
+		margin-top:20px;
+	}
+	.mvPrimaryText{
+		font-size:18px;
+		margin-left:28vw;
+		margin-top:17px;
+	}
+	.mvPrimaryNumber{
+		margin-left:3vw;
+		margin-top:20px;
+		color:grey;
+	}
+	.mvPen{
+		background-color:rgb(211, 53, 44);
+		padding: 10px 10px 5px 10px;
+		border-radius: 5px;
+		margin-top:10px;
+		margin-bottom:10px;
+		margin-left:15vw;
+	}
+	.mvSearch{
+		padding:10px 0px 10px 0px;
+		display:flex;
+		background-color:white;
+		width:100%;
+	}
+	.mvSearch input{
+		background-color:white;
+		border:none;
+		font-size:17px;
+		margin-left:10px;
+	}
+	.mvSearch img{
+		margin-left:10px;
+	}
+	.mvMain{	
+		overflow-y:scroll;
+		height:310px;
+	}
+	.mvRow{
+		display:flex;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-bottom:1px solid rgb(214, 215, 219);
+	}
+	.mvSquare{
+		margin-left:5px;
+		margin-top:18px;
+	}
+	.mvMailContent{
+		margin-left:10px;
+		width:400px;
+	}
+	.mvTime img{
+		margin-top:10px;
+		margin-left:25px;
+	}
+	.mvSender{
+		font-size:17px;
+		font-weight:bold;
+	}
+	.mvSubject{
+		font-size:14px;
+	}
+	.mvMail{
+		font-size:14px;
+		color:grey;
+	}
+}
 
 
+/*
+@media screen and(max-width:375px){
+	
+}
+*/
+
+
+
+/*
 @media screen and (max-width:500px){
 	.mainFlex{
 		display:none;
@@ -170,6 +293,7 @@
 		padding:5px 10px;
 		border-radius:5px;
 		background-color:rgb(215, 54, 44);
+		margin-left:1px;
 	}
 
 	.primary500Text{
@@ -264,4 +388,4 @@
 		margin-top:15px;
 		margin-left:30px;
 	}
-}
+}*/
