@@ -1,0 +1,20 @@
+@media screen and (max-width:866px){
+	.searchBar{
+		display:none;
+	}
+	.searchBar866{
+		margin-top:25px;
+		margin-left:250px;
+		display:unset;
+		background-color:rgb(246, 248, 252);
+	}
+	.searchBar866 button{
+		border:none;
+		background-color:rgb(246, 248, 252);
+	}
+	
+}
+
+
+@media screen and (max-width:868px){
+}

@@ -1,0 +1,210 @@
+@media screen and (max-width:960px){
+	.active{
+		display:none;
+	}
+	.active980{
+		display:flex;
+		background-color:rgb(234, 241, 251);
+		margin-top:10px;
+		margin-left:10px;
+		padding:15px 15px 20px 15px;
+		height:10px;
+		border-radius:50%;
+	}
+}
+
+
+@media screen and (max-width:866px){
+	.searchBar{
+		display:none;
+	}
+	.searchBar866{
+		margin-top:25px;
+		margin-left:250px;
+		display:unset;
+		background-color:rgb(246, 248, 252);
+	}
+	.searchBar866 button{
+		border:none;
+		background-color:rgb(246, 248, 252);
+	}
+	
+}
+
+
+@media screen and (max-width:868px){
+		.contentHeader{
+			max-width:60vw;	
+		}
+		.mailBody{
+			display:none;
+		}
+
+		.mailBody868{
+			display:unset;
+			background-color:rgb(242, 246, 252);
+			height:10px;
+			overflow-y:scroll;
+		}
+
+		.body868Row{
+			display:flex;
+			padding-top:10px;
+			padding-left:20px;
+			text-overflow: ellipsis;
+		}
+		.body868Row:hover{
+			cursor:pointer;
+			box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+		}
+
+		.content868Row{
+			padding:1px;
+		}
+			
+		.matter868 p{
+			color:grey;
+		}
+
+		.date868{
+			margin-left:1vw;
+			width:50px;
+		}
+
+		.mailBody868Main{
+			background-color:rgb(242, 246, 252);
+			height:500px;
+			overflow-y:scroll;
+			border-radius:0px 0px 0px 20px;
+		}
+
+		.content868{
+			margin-left:20px;
+			width:350px;
+		}
+
+		.date868 img{
+			margin-top:20px;
+			margin-left:25px;
+		}
+
+		.mailBody868Main p{
+			font-size:14px;
+		}
+}
+
+@media screen and (max-width:500px){
+	.mainFlex{
+		display:none;
+		height:10vh;
+		width:10vw;
+	}
+	.mobileView{
+		display:unset;
+		width:100vw;
+		height:100%;
+	}
+	.mvHeader{
+		width:100vw;
+		display:flex;
+		background-color:rgb(245, 246, 251);
+		border-bottom:1px solid rgb(214, 215, 219);
+	}
+	.mvImg{
+		height:50px;
+		background-color:rgb(255, 255, 255);
+		padding:3px;
+		border-radius:10px;
+		margin:10px 10px 10px 10px
+	}
+	.mvHeaderTextBig{
+		font-size:20px;
+		font-weight:bold;
+		margin-top:20px;
+	}
+	.mvHeaderOpen{
+		margin-left:5px;
+		color:rgb(11, 87, 207);
+		margin-top:25px;
+	}
+	.mvPrimary{
+		display:flex;
+		width:100vw;
+		background-color:rgb(241, 241, 241);
+	}
+	.mvOption{
+		margin-left:5px;
+		margin-top:20px;
+	}
+	.mvReload{
+		margin-left:10px;
+		margin-top:20px;
+	}
+	.mvPrimaryText{
+		font-size:18px;
+		margin-left:28vw;
+		margin-top:17px;
+	}
+	.mvPrimaryNumber{
+		margin-left:3vw;
+		margin-top:20px;
+		color:grey;
+	}
+	.mvPen{
+		background-color:rgb(211, 53, 44);
+		padding: 10px 10px 5px 10px;
+		border-radius: 5px;
+		margin-top:10px;
+		margin-bottom:10px;
+		margin-left:15vw;
+	}
+	.mvSearch{
+		padding:10px 0px 10px 0px;
+		display:flex;
+		background-color:white;
+		width:100%;
+	}
+	.mvSearch input{
+		background-color:white;
+		border:none;
+		font-size:17px;
+		margin-left:10px;
+	}
+	.mvSearch img{
+		margin-left:10px;
+	}
+	.mvMain{	
+		overflow-y:scroll;
+		height:310px;
+	}
+	.mvRow{
+		display:flex;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-bottom:1px solid rgb(214, 215, 219);
+	}
+	.mvSquare{
+		margin-left:5px;
+		margin-top:18px;
+	}
+	.mvMailContent{
+		margin-left:10px;
+		width:300px;
+	}
+	
+	.mvTime img{
+		margin-top:10px;
+		margin-left:23px;
+	}
+	.mvSender{
+		font-size:17px;
+		font-weight:bold;
+	}
+	.mvSubject{
+		font-size:14px;
+	}
+	.mvMail{
+		font-size:14px;
+		color:grey;
+	}
+}

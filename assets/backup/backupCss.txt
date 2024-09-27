@@ -1,0 +1,340 @@
+*{
+	margin:0;
+	padding:0px;
+	font-family:Arial;
+}
+
+body{
+	background-color:rgb(246, 248, 252);
+}
+.mainFlex{
+	display:flex;
+}
+
+.sideNav{
+	background-color:rgb(234, 241, 251);
+	height:100vh;
+	width:68px;
+}
+.sideNav p{
+	font-size:12px;
+}
+.optionButton{
+	margin-left:25px;
+	margin-top:23px;
+	background-color:rgb(234, 241, 251);
+	border:none;
+}
+.sideButtonMail{
+	margin-left:13px;
+	margin-top:40px;
+	padding:6px 12px;
+	border-radius: 20px;
+	border:none;
+	background-color:rgb(211, 227, 253);
+}
+.sideMenuText{
+	margin-left:23px;
+	margin-top:4px;
+}
+
+.sideButtonGroup{
+	border:none;
+	background-color:rgb(234, 241, 251);
+	margin-left:13px;
+	margin-top:15px;
+	padding:6px 12px;
+	border-radius: 20px;
+}
+.sideButtonGroup:hover{
+	cursor:pointer;
+	background-color:rgb(211, 227, 253);
+}
+
+.main{
+	width:100%;
+}
+.header{
+	display:flex;
+	width:100%;
+}
+
+.headerLogo{
+	margin-left:22px;
+	margin-top:15px;
+}
+
+.headerGText p{
+	font-size:21px;
+	margin-top:23px;
+	margin-left:10px;
+}
+
+.searchBar866{
+	display:none;
+}
+
+.searchBar{
+	background-color:rgb(234, 241, 251);
+	margin-top:10px;
+	margin-left:135px;
+	border-radius:30px;
+	padding:auto;
+	padding-right:10px;
+	width:80%;
+	max-width:43vw;
+	height:50px;
+	display:flex;
+}
+.searchBar input{
+	background-color:rgb(234, 241, 251);
+	border:none;
+	width:85%;
+	margin-left:5px;
+}
+
+.searchBar button{
+	background-color:rgb(234, 241, 251);
+	border:none;
+}
+.searchBar button:hover{
+	cursor:pointer;
+}
+.filterIcon{
+	margin-left:5px;
+	border-radius:20px;
+}
+.searchIcon{
+	margin-left:15px;
+	margin-top:1px;
+}
+
+.active980{
+	display:none;
+}
+.active{
+	border-radius:50px;
+	margin-top:10px;
+	display:flex;
+	background-color:rgb(234, 241, 251);
+	margin-left:20px;
+	padding-right:5px;
+	margin-right:auto;
+}
+
+.active img{
+	margin-left:10px;
+	padding-top:20px;
+}
+
+.active p{
+	margin-left:10px;
+	margin-top:15px;
+}
+
+.qnMark, .setting, .dotsMenu{
+	margin:22px auto;
+}
+
+.techV{
+	display:flex;
+	padding:4px;
+	border:1px solid grey;
+	border-radius:10px;
+	margin:10px auto;
+}
+
+.techVLogo{
+	margin-top:5px;
+}
+
+.jImage{
+	margin-top:4px;
+}
+
+
+/*Menu Bar*/
+.mainBody{
+	display:flex;
+}
+
+.menuBar{
+	margin-left:10px;
+	top:0;
+}
+.compose{
+	background-color:rgb(194, 231, 255);
+	display:flex;
+	padding:18px 23px;
+	margin-top:22px;
+	border-radius:15px;
+	width:92px;
+}
+
+.compose p{
+	margin-top:3px;
+	margin-left:10px;
+	font-size:15px;
+}
+
+.compose:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+}
+
+
+.sideBarOption{
+	display:flex;
+	background-color:rgb(211, 227, 253);
+	margin-top:16px;
+	padding:7px 15px;
+	border-radius:200px;
+	width:202px;
+}
+
+.sideBarOption p{
+	margin-left:20px;
+	font-size:14px;
+}
+
+.sideBarOption:hover{
+	cursor:pointer;
+}
+
+.sideBarOptionGroup{
+	display:flex;
+	padding:7px 15px;
+	border-radius:200px;
+	width:202px;
+}
+
+.sideBarOptionGroup p{
+	margin-left:20px;
+	font-size:14px;
+}
+
+.sideBarOptionGroup:hover{
+	cursor:pointer;
+	background-color:rgb(234, 235, 239);
+}
+
+.labels{
+	display:flex;
+	margin-top:25px;
+	margin-left:15px;
+}
+
+.labelPlus{
+	margin-left:135px;
+	cursor:pointer;
+	padding:5px;
+	border-radius:50%;
+}
+
+.labelPlus:hover{
+	background-color:rgb(234, 235, 239);
+}
+
+.labelText{
+	margin-top:5px;
+}
+
+
+.content{
+	margin-left:15px;
+	width:78%;
+}
+.contentHeader{
+	display:flex;
+	width:100%;
+	background-color:rgb(255, 255, 255);
+	margin-top:10px;
+	padding:10px;
+	border-radius:15px 15px 0px 0px;
+}
+
+.contentHeader p{
+	font-size:12px;
+	color:grey;
+}
+
+.square{
+	margin-left:10px;
+}
+
+.downArrow{
+	margin-left:5px;
+	margin-top:3px;
+}
+
+.refresh{
+	margin-left:20px;
+}
+.dots{
+	margin-left:20px;
+}
+
+.headerGroup{
+	margin-left:auto;
+	display:flex;
+	justify-content:space-between;
+	width:200px;
+}
+
+.leftArrow, .rightArrow, .keyboard{
+	margin:auto;
+}
+.mailBody868{
+	display:none;
+}
+.mailBody{
+	overflow-y:scroll;
+	height:510px;
+	border-radius:0px 0px 15px 15px;
+}
+
+.mailRow{
+	display:flex;
+	background-color:rgb(242, 246, 252);
+	padding:10px 20px 10px 20px;
+	border-bottom:1px solid rgb(214, 215, 219);
+	margin-top:1px;
+}
+
+.mailRow:hover{
+	box-shadow:2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+	cursor:pointer;
+}
+
+.rowStar{
+	margin-left:10px;
+}
+
+.mailRow p{
+	font-size:14px;
+}
+.mailRow img{
+	opacity:0.5;
+}
+
+.sender{
+	margin-left:15px;
+	width:175px;
+}
+
+.bodyOfMail{
+	margin-left:1vw;
+	max-width:50vw;
+	overflow-x:hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+
+.mailTime{
+	margin-left:15px;
+	width:55px;
+}
+
+.main500{
+	display:none;
+}
